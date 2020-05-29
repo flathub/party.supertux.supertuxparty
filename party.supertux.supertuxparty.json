@@ -51,6 +51,7 @@
 	],
 	"finish-args": [
 		"--socket=x11",
+		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--filesystem=~/.local/share/godot/app_userdata/SuperTuxParty",
 		"--device=all",
