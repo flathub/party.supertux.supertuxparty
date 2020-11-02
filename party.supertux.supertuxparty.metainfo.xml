@@ -51,6 +51,50 @@
   </screenshots>
   
   <releases>
+	<release date="2020-11-02" version="Alpha v0.8">
+	  <description>
+		<p>
+		  New features
+		  <ul>
+			<li> Screenshot key (Default: F2) </li>
+			<li> Show licenses for shaders in the credits screen </li>
+			<li> New 2v2 minigame: Memory </li>
+			<li> Find matching card pairs! </li>
+			<li> Added Sarah as the boards' host </li>
+			<li> Gives tutorial on first start, explaining the basic mechanics </li>
+			<li> Can be skipped </li>
+			<li> Announces what happens on the board (e.g. the cake is bought and moves to another space) </li>
+			<li> Translation progress from our project on [Hosted Weblate](hosted.weblate.org/projects/super-tux-party) </li>
+			<li> Added Translation for Norwegian Bokmål (98% complete) to the game </li>
+			<li> Added Translation for Russian (100% complete) to the game </li>
+			<li> Added Translation for Turkish (100% complete) to the game </li>
+		  </ul>
+		</p>
+		<p>
+		  Improved / Changed
+		  <ul>
+			<li> Lots of visual improvements </li>
+			<li> New Harvest Food minigame background </li>
+			<li> Added furniture to Haunted Dreams minigame </li>
+			<li> Added a bowling alley theme to the Bowling minigame </li>
+			<li> Boxes fall from the sky, stunning players hit, while also blocking the bowling ball </li>
+			<li> Easier movement controls for the solo player </li>
+			<li> Better and gamepad type agnostic control icons </li>
+			<li> Cell shaded everything </li>
+			<li> Hexagon board spaces </li>
+			<li> New character splash art </li>
+			<li> Fixed floating spaces on the KDEValley board </li>
+			<li> Better Shop UI </li>
+			<li> Reorganized the control mapping menu </li>
+			<li> Makes it easier to navigate the options with a gamepad </li>
+			<li> Fixed a bug that caused newly added human players to become AI players after leaving and starting a new game </li>
+			<li> The randomization algorithms avoids playing the same minigame multiple times in a row </li>
+			<li> Doesn't work between sessions </li>
+			<li> The main menu music now starts to play *after* the audio volume options are loaded </li>
+		  </ul>
+		</p>
+	  </description>
+	</release>
 	<release date="2020-04-01" version="Alpha v0.7">
 	  <description>
 		<p>
