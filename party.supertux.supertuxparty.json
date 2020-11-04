@@ -32,7 +32,7 @@
 					"type": "archive",
 					"url": "https://supertux.party/download/v0.8/linux",
 					"dest-filename": "linux.zip",
-					"sha256": "0c645b1c5b26d029640a712d1f1d4fd1d8a2b63d5bbcbf6357d249a5e25e5f09"
+					"sha256": "b20409ec9a5a110e61c311634447069d0c3a3a021f95f877db6be287ff018e6b"
 				},
 				{
 					"type": "file",
