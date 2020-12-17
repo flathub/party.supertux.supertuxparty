@@ -1,7 +1,5 @@
 {
 	"app-id": "party.supertux.supertuxparty",
-	"base": "org.godotengine.godot.BaseApp",
-	"base-version": "3.1",
 	"runtime": "org.freedesktop.Platform",
 	"runtime-version": "19.08",
 	"sdk": "org.freedesktop.Sdk",
@@ -13,6 +11,7 @@
 			"build-commands": [
 				"mkdir -p /app/bin/plugins",
 				"install -Dm755 run.sh /app/bin/supertuxparty",
+				"install -Dm755 supertuxparty /app/bin/godot-runner",
 				"install -Dm644 supertuxparty.pck /app/bin/supertuxparty.pck",
 				"install -Dm644 default.pck /app/bin/plugins/default.pck",
 				"install -Dm644 icon.png /app/share/icons/hicolor/512x512/apps/party.supertux.supertuxparty.png",
