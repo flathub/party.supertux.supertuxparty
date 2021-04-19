@@ -29,9 +29,9 @@
 				},
 				{
 					"type": "archive",
-					"url": "https://supertux.party/download/v0.8/linux",
+					"url": "https://supertux.party/download/v0.9/linux",
 					"dest-filename": "linux.zip",
-					"sha256": "b20409ec9a5a110e61c311634447069d0c3a3a021f95f877db6be287ff018e6b"
+					"sha256": "715f235678bc3c36738282bfbaef48b07bc46fdcaa10e51974cc8eb72ccb1948"
 				},
 				{
 					"type": "file",
