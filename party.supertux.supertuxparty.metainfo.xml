@@ -57,6 +57,44 @@
   </screenshots>
   
   <releases>
+	<release date="2021-04-19" version="Alpha v0.9">
+	  <description>
+		<p>
+		  Improved / Changed
+		  <ul>
+			<li> Redesigned the minigame end screen </li>
+			<li> New cake design </li>
+			<li> Enabled hidpi support </li>
+			<li> Add a timer for Dungeon Parkour and Forest Run </li>
+			<li> Fix AI getting stuck in Escape from Lava minigame </li>
+			<li> Minigame QoL changes: </li>
+			<li> Decreased the time for plant selection in "Harvest Food" minigame from 10 seconds to 8 seconds </li>
+			<li> Spawn less Bombs in "Boat Rally" minigame </li>
+			<li> Added pre-start countdown in "Escape from Lava", "Harvest Food" and "Hurdle" minigames </li>
+			<li> Updated minigame screenshots </li>
+			<li> Provide better default keybindings </li>
+			<li> Fixed Beastie's and Godette's character model clipping into the ground </li>
+			<li> Screenshot creation on Windows works now </li>
+			<li> New Main Menu design and animations </li>
+			<li> New Pre-minigame screen </li>
+			<li> UI theme improvements </li>
+			<li> Credits menu now properly obeys the theme </li>
+			<li> Fixed "Harvest Food" minigame listing the ability to jump, while the minigame doesn't allow it </li>
+			<li> Show the controls to flip a card in the "Memory" minigame </li>
+			<li> Reworked the "Kernel compiling minigame" </li>
+			<li> The visual style now matches the desired cartoony look </li>
+			<li> In the 2v2 version, team players now fill the same bar instead of seperate bars </li>
+			<li> Player icons now show up correctly in the "Memory" minigame </li>
+			<li> Fixed some buggy behavior when flipping a card faceup in the "Memory" minigame </li>
+			<li> The "Memory" minigame now does not return instantly to the minigame end screen, but gives you a bit of time to look at the stats </li>
+			<li> Use Liberation Sans instead of Noto Sans as fallback font </li>
+			<li> Show the total number of turns on the board </li>
+			<li> The Background music on the test board loops now </li>
+			<li> The game now plays a sound when you pass a space on the board </li>
+		  </ul>
+		</p>
+	  </description>
+	</release>
 	<release date="2020-11-02" version="Alpha v0.8">
 	  <description>
 		<p>
