@@ -1,7 +1,7 @@
 {
 	"app-id": "party.supertux.supertuxparty",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "19.08",
+	"runtime-version": "21.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "supertuxparty",
 	"modules": [
@@ -50,7 +50,6 @@
 	],
 	"finish-args": [
 		"--socket=x11",
-		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--filesystem=~/.local/share/godot/app_userdata/SuperTuxParty",
 		"--device=all",
