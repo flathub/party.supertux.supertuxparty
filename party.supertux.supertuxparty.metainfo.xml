@@ -61,6 +61,7 @@
 	  <description>
 		<p>
 		  Improved / Changed
+                </p>
 		  <ul>
 			<li> Redesigned the minigame end screen </li>
 			<li> New cake design </li>
@@ -92,13 +93,13 @@
 			<li> The Background music on the test board loops now </li>
 			<li> The game now plays a sound when you pass a space on the board </li>
 		  </ul>
-		</p>
 	  </description>
 	</release>
 	<release date="2020-11-02" version="Alpha v0.8">
 	  <description>
 		<p>
 		  New features
+                </p>
 		  <ul>
 			<li> Screenshot key (Default: F2) </li>
 			<li> Show licenses for shaders in the credits screen </li>
@@ -113,9 +114,9 @@
 			<li> Added Translation for Russian (100% complete) to the game </li>
 			<li> Added Translation for Turkish (100% complete) to the game </li>
 		  </ul>
-		</p>
 		<p>
 		  Improved / Changed
+                  </p>
 		  <ul>
 			<li> Lots of visual improvements </li>
 			<li> New Harvest Food minigame background </li>
@@ -136,13 +137,13 @@
 			<li> Doesn't work between sessions </li>
 			<li> The main menu music now starts to play *after* the audio volume options are loaded </li>
 		  </ul>
-		</p>
 	  </description>
 	</release>
 	<release date="2020-04-01" version="Alpha v0.7">
 	  <description>
 		<p>
 		  New features
+                </p>
 		  <ul>
 			<li> Added loading screens </li>
 			<li> Added music to "Haunted Dreams" minigame </li>
@@ -159,9 +160,9 @@
 			<li> Boat Rally: Steer a boat through rocks and avoid getting hit by falling bombs (Nolok Coop) </li>
 			<li> Added Credits screen </li>
 		  </ul>
-		</p>
 		<p>
 		  Improved / Changed
+                </p>
 		  <ul>
 			<li> Smoother player movement on boards </li>
 			<li> Fixed roll button not clickable </li>
@@ -174,7 +175,6 @@
 			<li> Fixed crash when loading the "Haunted Dreams" minigame </li>
 			<li> Fixed the board turns setting being ignored </li>
 		  </ul>
-		</p>
 	  </description>
 	</release>
   </releases>
