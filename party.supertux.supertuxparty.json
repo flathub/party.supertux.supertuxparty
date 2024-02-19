@@ -1,9 +1,19 @@
 {
 	"app-id": "party.supertux.supertuxparty",
+	"base": "org.godotengine.godot.BaseApp",
+	"base-version": "3.2-23.08",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "22.08",
+	"runtime-version": "23.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "supertuxparty",
+	"finish-args": [
+		"--socket=x11",
+		"--socket=pulseaudio",
+		"--filesystem=~/.local/share/godot/app_userdata/SuperTuxParty",
+		"--device=all",
+		"--share=ipc",
+		"--share=network"
+	],
 	"modules": [
 		{
 			"name": "supertuxparty",
@@ -11,7 +21,6 @@
 			"build-commands": [
 				"mkdir -p /app/bin/plugins",
 				"install -Dm755 run.sh /app/bin/supertuxparty",
-				"install -Dm755 supertuxparty /app/bin/godot-runner",
 				"install -Dm644 supertuxparty.pck /app/bin/supertuxparty.pck",
 				"install -Dm644 default.pck /app/bin/plugins/default.pck",
 				"install -Dm644 icon.png /app/share/icons/hicolor/512x512/apps/party.supertux.supertuxparty.png",
@@ -24,7 +33,7 @@
 					"dest-filename": "run.sh",
 					"commands": [
 						"cd /app/bin",
-						"./godot-runner --main-pack supertuxparty.pck"
+						"exec ./godot-runner --main-pack supertuxparty.pck"
 					]
 				},
 				{
@@ -47,15 +56,6 @@
 				}
 			]
 		}
-	],
-	"finish-args": [
-		"--socket=x11",
-		"--socket=wayland",
-		"--socket=pulseaudio",
-		"--filesystem=~/.local/share/godot/app_userdata/SuperTuxParty",
-		"--device=all",
-		"--share=ipc",
-		"--share=network"
 	]
 }
 
